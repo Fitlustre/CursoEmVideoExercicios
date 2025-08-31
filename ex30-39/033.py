@@ -10,7 +10,7 @@ elif segundo > primeiro and segundo > terceiro:
     print(f' O maior valor é o {segundo}')
 
 elif terceiro > segundo and terceiro > primeiro:
-    print(f' O maio valor é o {terceiro}')
+    print(f' O maior valor é o {terceiro}')
 
 if primeiro < segundo and primeiro < terceiro:
     print(f' O menor valor é o {primeiro}')
