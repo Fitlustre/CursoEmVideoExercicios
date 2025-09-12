@@ -10,8 +10,8 @@ from time import sleep
 n1 = float(input('Digite um valor: '))
 n2 = float(input('Digite um segundo valor: '))
 
-sair = False
-while not sair:
+e = 0
+while e != 5:
     print('\033[0:37m=' * 30)
     print(
         '\033[32m'
@@ -41,7 +41,6 @@ while not sair:
         n2 = float(input('Digite um segundo valor: '))
     elif e == 5:
         print('\033[31mFinalizando...')
-        sair = True
         sleep(3)
     else:
         print('\033[31mTente novamente...')
