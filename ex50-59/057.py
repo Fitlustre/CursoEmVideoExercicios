@@ -10,3 +10,5 @@ if g == 'm':
     print('Sexo Masculino registrado com sucesso.')
 elif g == 'f':
     print('Sexo Feminino registrado com sucesso.')
+else:
+    print("Por favor, tente novamente!")

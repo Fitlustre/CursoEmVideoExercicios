@@ -10,7 +10,6 @@ print(
 n = randint(0, 10)
 p = -1
 c = 0
-
 while p != n:
     p = int(input('Qual seu palpite? '))
     if 0 < p > 10:
