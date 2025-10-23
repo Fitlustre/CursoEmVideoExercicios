@@ -14,6 +14,9 @@ while True:
           f'DEU PAR' if n == 0 else 'DEU ÍMPAR')
     print('--' * 15)
 
+    if pi != 'i' or pi != 'p':
+        print('\033[31mDigite os valores corretamente!\033[34m')
+        break
     if n == 0:
         if pi in 'p':
             print('JOGADOR VENCE')
@@ -22,7 +25,7 @@ while True:
             print('VOCÊ PERDEU')
             break
         else:
-            print('\033[31mDigite os valores corretamente!\033[38m')
+            print('\033[31mDigite os valores corretamente!\033[37m')
     else:
         if pi in 'i':
             print('JOGADOR VENCE!')
