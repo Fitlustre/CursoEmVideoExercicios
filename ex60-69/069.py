@@ -1,21 +1,32 @@
-
-pmaior = h = women = 0
+#
+print('--'*20)
+print('         CADASTRE UMA PESSOA')
+print('--'*20)
+mais18 = mulher = man = 0
 while True:
-    id = int(input('Digite sua idade: '))
-    sex = input('Digite seu sexo[M/F]: ').lower()[0]
-    if sex != 'm' and sex != 'f':
-        print('\033[31mDigite os dados correctamente!\033[38m')
-    else: 
-        if id > 18:
-            pmaior += 1
-        if sex == "m":
-            h += 1
-        if id < 20 and sex == "f":
-            women += 1
-    esc = input('Quer continuar?[S/N] ').lower()[0]
+    gender = esc = 0
+    idade = int(input('Idade: '))
+    while gender != 'f' and gender != 'm':
+        gender = input('Sexo [F/M]: ').lower()[0]
 
+    if idade > 18:
+        mais18 += 1
+    if gender in 'f' and idade < 20:
+        mulher += 1
+    elif gender in 'm':
+        man += 1
+
+    print('--'*20)
+    while esc != 's' and esc != 'n':
+        esc = input('Quer continuar? [S/N] ').lower()[0]
+    print('--'*20)
     if esc == 'n':
         break
-    elif esc != 's':
-        print('Digite apenas S ou N.!')
-print(f'Ao todo existem {pmaior} pessoas maiores de idade. \nForam cadastrados {h} homens \nE {women} mulheres com menos de 20 anos.')
+        
+print('='*20)
+print('FIM DO PROGRAMA')
+print('='*20)
+
+print(f' \033[34mAo todo existem {mais18} pessoas com mais de 18 anos. \n Foram cadastrados {man} homens.\n'
+      f' E existem {mulher} mulheres com menos de 20 anos')
+
