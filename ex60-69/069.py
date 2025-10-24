@@ -1,4 +1,8 @@
-#
+# Crie um programa que leia a idade e o sexo de várias pessoas.
+# A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não continuar. No final, mostre:
+# A) quantas pessoas tem mais de 18 anos.
+# B) quantos homens foram cadastrados.
+# C) quantas mulheres tem menos de 20 anos.
 print('--'*20)
 print('         CADASTRE UMA PESSOA')
 print('--'*20)
@@ -22,11 +26,10 @@ while True:
     print('--'*20)
     if esc == 'n':
         break
-        
+
 print('='*20)
 print('FIM DO PROGRAMA')
 print('='*20)
 
 print(f' \033[34mAo todo existem {mais18} pessoas com mais de 18 anos. \n Foram cadastrados {man} homens.\n'
       f' E existem {mulher} mulheres com menos de 20 anos')
-
