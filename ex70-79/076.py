@@ -11,8 +11,7 @@ print(f'{'LOJA FIT':^40}')
 print('-'*40)
 for pos in range(len(t)):
     if pos % 2 == 0:
-        tp = 30 - len(t[pos])
-        print(f'{t[pos]}{'.'*tp}R$ ', end='')
+        print(f'{t[pos]:.<30}R$ ', end='')
     else:
         print(t[pos])
 print('='*40)
