@@ -6,7 +6,6 @@ for c in range(0, 5):
     n = int(input(f'Digite um número [{cont}/5]: '))
     valores.append(n)
 
-for c in valores
 
 print(
     f'=_='*15,
