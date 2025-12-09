@@ -19,10 +19,8 @@ while True:
         break
 
 print('=_='*20)
-print(f'No total foram listados {len(lista)} valores ( ', end='')
+print(f'No total foram listados {len(lista)} valores ', end='')
 
 lista.sort()
 
-for c in lista:
-    print(c, end=', ')
-print(')')
+print(lista)

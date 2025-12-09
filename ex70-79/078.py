@@ -1,16 +1,20 @@
-#
-valores = list()
-cont = 0
-for c in range(0, 5):
-    cont += 1
-    n = int(input(f'Digite um número [{cont}/5]: '))
-    valores.append(n)
 
+valores = []
+for c in range(5):
+    valores.append(int(input(f'Digite um número para a posição {c}: ')))
 
-print(
-    f'=_='*15,
-    f'\nVocê digitou os valores {valores}\n'
-    f'O maior valor foi {max(valores)} que está na {valores.index(max(valores))+1}ª posição.\n'
-    f'E o menor valor foi {min(valores)} que está na {valores.index(min(valores))+1}ª posição.'
-)
+maior = max(valores)
+menor = min(valores)
+print('='*30)
+print(f'Você digitou os valores: {valores}')
 
+#O maior
+print(f'O maior valor digitado foi {maior} nas posições: ', end =' ')
+for pos, v in enumerate(valores):
+    if v == maior:
+        print(pos, end= '...')
+#O menor
+print(f'\nO menor valore foi {menor} nas posições: ', end='')
+for pos, v in enumerate(valores):
+    if v == menor:
+        print(pos, end='...')
