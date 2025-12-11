@@ -1,0 +1,1 @@
+# .clear para limpar uma lista
