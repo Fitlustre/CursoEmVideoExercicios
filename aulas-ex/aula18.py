@@ -1,1 +1,1 @@
-# .clear para limpar uma lista
+# .clear() para limpar uma lista
