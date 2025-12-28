@@ -6,15 +6,15 @@ lista = []
 for c in range(3):
     if c == 0:
         for v in range(3):
-            n = int(input(f'Digite um valor para [0, {v+1}]: '))
+            n = int(input(f'Digite um valor para [0, {v}]: '))
             lista.append(n)
     if c == 1:
         for v in range(3):
-            n = int(input(f'Digite um valor para o [1, {v+1}]: '))
+            n = int(input(f'Digite um valor para o [1, {v}]: '))
             lista.append(n)
     if c == 2:
         for v in range(3):
-            n = int(input(f'Digite um valor para o [2, {v+1}]: '))
+            n = int(input(f'Digite um valor para o [2, {v}]: '))
             lista.append(n)
             
 print('=_='*20, '\n')
