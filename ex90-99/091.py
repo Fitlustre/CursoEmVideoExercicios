@@ -1,25 +1,25 @@
 from random import randint
+    
 players = {}
-names = []
-rank = []
-m = []
-for c in range(4):
-    players['name'] = f'Jogador{c+1}'
-    players['number'] = f'{randint(1,6)}'
-    names.append(players.copy())
-#print(names)
-print('Valores sorteados:')
-for c in names:
-    print(f'{c['name']} tirou {c['number']} no dado.')
-print('=_='*30,
-    f'\n== RANKING DOS JOGADORES =='
-    )
-for c in names:
-    rank.append(c['number'])
-rank.sort()
-print(rank)
+ranking = []
 
-for c in range(4):
-    for d in names:
-        if d['number'] == rank[c]:
-            print(f'{c+1}º lugar: {d['name']} com {d['number']}.')
+for jogador in range(1, 5):
+    players[f'Jogador {jogador}'] = randint(1, 6)
+
+print('Valores sorteados:')
+for c in players:
+    print(f'{c} tirou {players[c]} no dado.')
+
+print('=_=' * 30)
+print('== RANKING DOS JOGADORES ==')
+
+for jogador in players:
+    ranking.append((jogador, players[jogador]))
+
+for i in range(len(ranking)):
+    for j in range(i + 1, len(ranking)):
+        if ranking[j][1] > ranking[i][1]:
+            ranking[i], ranking[j] = ranking[j], ranking[i]
+
+for posicao, (jogador, valor) in enumerate(ranking, start=1):
+    print(f'{posicao}º lugar: {jogador} com {valor}')
