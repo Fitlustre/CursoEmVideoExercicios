@@ -4,7 +4,7 @@ import time
 print('\033[33m='*30)
 input('\033[34mVocê quer ouvir algo legal? ')
 pygame.init()
-pygame.mixer.music.load('021.mp3')
+pygame.mixer.music.load('Ex20-29/021.mp3')
 pygame.mixer.music.play()
 
 print('Então ouve isto...')
