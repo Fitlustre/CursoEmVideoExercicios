@@ -1,2 +1,27 @@
 __pycache__
 tests/
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Testes ---
+tests/
+*/tests/
+coverage/
+.coverage
+htmlcov/
+
+# --- Logs ---
+*.log
+
+# --- Arquivos temporários ---
+*.tmp
+*.temp
+*.bak
