@@ -1,7 +1,8 @@
 def escreva(texto):
-    print("~"*(len(texto)+2))
-    print(texto.center(len(texto)+2))
-    print("~"*(len(texto)+2))
+    tam = (len(texto)+4)
+    print("~"*tam)
+    print(texto.center(tam))
+    print("~"*tam)
 
 
 escreva("Olá Mundo!")
