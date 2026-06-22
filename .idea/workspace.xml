@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4387abcc-5e49-4850-a7ab-9c3c4ee6ed2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ex100-109/106.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex100-109/108.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex100-109/109.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex100-109/ex107/107.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex100-109/ex107/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex100-109/ex107/mathlib.py" afterDir="false" />
+    <list default="true" id="4387abcc-5e49-4850-a7ab-9c3c4ee6ed2c" name="Changes" comment="ex aula 22">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex110.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex110/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex110/mathlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex111/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex111/utilidadescev/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex111/utilidadescev/dado/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex111/utilidadescev/moeda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110-119/ex112.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,16 +54,34 @@
     "Python.107.executor": "Run",
     "Python.108.executor": "Run",
     "Python.109.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.ex110.executor": "Run",
+    "Python.ex111.executor": "Run",
+    "Python.ex112.executor": "Run",
     "Python.mathlib.executor": "Run",
     "Python.teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/luz/Nextcloud/2026/escola/2025-2026/Trabalhos/PSI/Fichas/Sistema de Gestão de Biblioteca",
+    "last_opened_file_path": "/home/luz/Documentos/GitHub/CursoEmVideoExercicios/ex110-119/ex111",
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex110-119/ex111" />
+      <recent name="$PROJECT_DIR$/ex110-119" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex110-119/ex110" />
+      <recent name="$PROJECT_DIR$/ex110-119" />
+      <recent name="$PROJECT_DIR$/ex110-119/ex111/utilidadescev" />
+      <recent name="$PROJECT_DIR$/ex11" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4387abcc-5e49-4850-a7ab-9c3c4ee6ed2c" name="Changes" comment="" />
@@ -68,6 +90,15 @@
       <option name="presentableId" value="Default" />
       <updated>1781265752336</updated>
     </task>
+    <task id="LOCAL-00001" summary="ex aula 22">
+      <option name="closed" value="true" />
+      <created>1782120432759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782120432760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex aula 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex aula 22" />
   </component>
 </project>
